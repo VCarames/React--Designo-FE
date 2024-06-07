@@ -1,6 +1,9 @@
+import Header from "../components/header/Header";
+
 function Contact() {
   return (
     <div>
+      <Header />
       <h1>Contact Page</h1>
       <p>This is the "Contact" page component</p>
     </div>
