@@ -56,23 +56,23 @@ function Navbar() {
       </button>
       <ul
         className={`nav__menu ${isNavExpanded ? " expanded" : ""}`}
-        id="nav__menu-list"
+        id="nav__menu"
         role="list"
         ref={navMenuRef}
         onBlur={handleFocusOut}
       >
         <li className="nav__menu-item" role="listitem">
-          <Link to="/about" className="nav__menu-link">
+          <Link className="nav__menu-link" to="/about">
             Our Company
           </Link>
         </li>
         <li className="nav__menu-item" role="listitem">
-          <Link to="/locations" className="nav__menu-link ">
+          <Link className="nav__menu-link" to="/locations">
             Locations
           </Link>
         </li>
         <li className="nav__menu-item" role="listitem">
-          <Link to="/contact" className="nav__menu-link">
+          <Link className="nav__menu-link" to="/contact">
             Contact
           </Link>
         </li>
