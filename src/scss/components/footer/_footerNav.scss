@@ -1,0 +1,42 @@
+.footer__nav {
+  &-list {
+    display: flex;
+    flex-direction: column;
+    gap: 1.38rem;
+    text-align: center;
+
+    @media (min-width: 760px) {
+      flex-direction: row;
+      justify-content: end;
+      gap: 2.44rem;
+    }
+  }
+
+  &-link {
+    position: relative;
+
+    color: var(--primary-clr-three);
+    font-size: var(--font-size-14);
+    font-weight: var(--font-weight-400);
+    line-height: 1;
+    letter-spacing: 0.13rem;
+    text-transform: uppercase;
+
+    &::before {
+      content: "";
+      position: absolute;
+      left: 0;
+      bottom: -0.25rem;
+      width: 0;
+      height: 0.06rem;
+      background: var(--primary-clr-three);
+      transition: width 0.4s ease-out;
+    }
+
+    @media (hover: hover) {
+      &:is(:hover, :focus, :focus-visible)::before {
+        width: 100%;
+      }
+    }
+  }
+}

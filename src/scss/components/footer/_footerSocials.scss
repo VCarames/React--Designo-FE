@@ -1,0 +1,21 @@
+.social__list {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+
+  @media (min-width: 760px) {
+    justify-self: end;
+    align-self: end;
+  }
+
+  &-icon {
+    fill: var(--primary-clr-one);
+
+    @media (hover: hover) {
+      &:is(:hover, :focus, :focus-visible) {
+        fill: var(--secondary-clr-one);
+        transition: 0.8s all;
+      }
+    }
+  }
+}
