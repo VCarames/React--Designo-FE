@@ -1,0 +1,26 @@
+.button {
+  min-width: 10ch;
+  min-height: 2.75rem;
+
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+
+  color: var(--secondary-clr-two);
+  font-size: var(--font-size-15);
+  font-weight: var(--font-weight-500);
+  letter-spacing: 1px;
+  text-transform: uppercase;
+
+  padding: 1.06rem 1.19rem 1.06rem 1.13rem;
+
+  border-radius: 0.5rem;
+  background: var(--primary-clr-three);
+
+  &:is(:hover, :focus, :focus-visible) {
+    color: var(--primary-clr-three);
+    background: var(--secondary-clr-one);
+
+    transition: 0.8s all;
+  }
+}
