@@ -1,0 +1,28 @@
+.header {
+  position: relative;
+  z-index: 99;
+
+  background: var(--primary-clr-three);
+
+  &__content {
+    max-width: 1110px;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 31.04px 24px 30.08px 24px;
+    margin: 0 auto;
+
+    @media (min-width: 760px) {
+      padding: 64px 39px 30px 39px;
+    }
+  }
+
+  &__logo {
+    max-width: 202px;
+
+    @media (min-width: 760px) {
+      max-width: 203px;
+    }
+  }
+}

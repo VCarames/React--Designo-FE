@@ -1,3 +1,7 @@
 @use "base/resets";
 @use "base/typography";
 @use "base/color";
+
+@use "components/header/header";
+@use "components/header/navToggle";
+@use "components/header/navbar";
