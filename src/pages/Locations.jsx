@@ -1,3 +1,4 @@
+import Footer from "../components/Footer/Footer";
 import Header from "../components/header/Header";
 
 function Locations() {
@@ -6,6 +7,8 @@ function Locations() {
       <Header />
       <h1>Locations Page</h1>
       <p>This is the "Locations" page component</p>
+
+      <Footer />
     </div>
   );
 }

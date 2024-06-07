@@ -1,3 +1,4 @@
+import Footer from "../components/Footer/Footer";
 import Header from "../components/header/Header";
 
 function AppDesign() {
@@ -6,6 +7,8 @@ function AppDesign() {
       <Header />
       <h1>App Design Page</h1>
       <p>This is the "App Design" page component</p>
+
+      <Footer />
     </div>
   );
 }

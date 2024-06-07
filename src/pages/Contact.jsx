@@ -1,3 +1,4 @@
+import Footer from "../components/Footer/Footer";
 import Header from "../components/header/Header";
 
 function Contact() {
@@ -6,6 +7,8 @@ function Contact() {
       <Header />
       <h1>Contact Page</h1>
       <p>This is the "Contact" page component</p>
+
+      <Footer/>
     </div>
   );
 }

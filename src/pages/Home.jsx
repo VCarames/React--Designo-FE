@@ -1,3 +1,4 @@
+import Footer from "../components/Footer/Footer";
 import Header from "../components/header/Header";
 
 function Home() {
@@ -6,6 +7,8 @@ function Home() {
       <Header />
       <h1>Home Page</h1>
       <p>This is the "Home" page component</p>
+
+      <Footer />
     </div>
   );
 }
