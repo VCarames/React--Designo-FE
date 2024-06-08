@@ -1,0 +1,59 @@
+.intro {
+  @media (min-width: 760px) {
+    margin: 0 40px 0 39px;
+  }
+
+  &__content {
+    max-width: 1110px;
+
+    display: grid;
+    justify-items: center;
+    gap: 24px;
+
+    color: var(--primary-clr-three);
+    text-align: center;
+
+    padding: 105px 24px 105px 24px;
+    margin: 0 auto;
+
+    background: var(--primary-clr-one);
+    background-repeat: no-repeat;
+    background-position: -31.31rem 0;
+
+    &--web {
+      background-image: url(/src/assets/web-design/desktop/bg-pattern-intro-web.svg);
+    }
+
+    &--app {
+      background-image: url(/src/assets/app-design/desktop/bg-pattern-intro-app.svg);
+    }
+
+    &--graphic {
+      background-image: url(/src/assets/graphic-design/desktop/bg-pattern-intro-graphic.svg);
+    }
+
+    @media (min-width: 760px) {
+      border-radius: 15px;
+
+      background-position: -1.38rem -10.38rem;
+    }
+
+    @media (min-width: 1000px) {
+      background-position: 14.63rem -10.38rem;
+    }
+  }
+
+  &__heading {
+    font-size: 48px;
+    font-weight: 500;
+    line-height: 1;
+  }
+
+  &__text {
+    max-width: 40ch;
+
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.63;
+  }
+}
