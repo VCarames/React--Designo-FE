@@ -1,4 +1,5 @@
 import Header from "../components/header/Header";
+import Intro from "../components/intro/Intro";
 import CallToAction from "../components/cta/CallToAction";
 import Footer from "../components/Footer/Footer";
 
@@ -6,10 +7,14 @@ function GraphicDesign() {
   return (
     <div>
       <Header />
-      <h1>Graphic Design Page</h1>
-      <p>This is the "Graphic Design" page component</p>
-
       <main>
+        <Intro
+          introContentClass="intro__content--graphic"
+          heading="Graphic Design"
+          text="We deliver eye-catching branding materials that are 
+tailored to meet your business objectives.
+"
+        />
         <CallToAction />
       </main>
       <Footer />
