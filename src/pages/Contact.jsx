@@ -1,4 +1,5 @@
 import Header from "../components/header/Header";
+import HeadquartersSection from "../components/headquarters/HeadquartersSection";
 import Footer from "../components/Footer/Footer";
 
 function Contact() {
@@ -8,6 +9,9 @@ function Contact() {
       <h1>Contact Page</h1>
       <p>This is the "Contact" page component</p>
 
+      <main>
+        <HeadquartersSection />
+      </main>
       <Footer />
     </div>
   );
