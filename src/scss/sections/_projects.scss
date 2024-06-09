@@ -1,0 +1,43 @@
+.projects {
+  margin: 0 24px;
+
+  @media (min-width: 760px) {
+    margin: 0 40px 0 39px;
+  }
+
+  &__content {
+    max-width: 1110px;
+
+    margin: 0 auto;
+  }
+
+  &__list {
+    display: grid;
+    grid-template-areas:
+      "web"
+      "app"
+      "graphic";
+    gap: 24px;
+    transition: 0.8s all;
+
+    @media (min-width: 1000px) {
+      grid-template-areas:
+        "web app"
+        "web graphic";
+      grid-template-columns: repeat(2, 1fr);
+      gap: 30px;
+
+      &--web {
+        grid-template-areas: "app graphic";
+      }
+
+      &--app {
+        grid-template-areas: "web graphic";
+      }
+
+      &--graphic {
+        grid-template-areas: "web app";
+      }
+    }
+  }
+}
