@@ -1,21 +1,21 @@
 import React from "react";
-import ProjectCard from "../components/cards/ProjectCard.jsx";
+import ProjectCard from "../../components/cards/ProjectCard.jsx";
 
-function ProjectsWeb() {
+function ProjectsGraphic() {
   return (
     <section className="projects">
       <div className="projects__content">
         <h2 className="visually-hidden">Our Projects</h2>
-        <ul className="projects__list projects__list--web" role="list">
+        <ul className="projects__list projects__list--graphic" role="list">
+          <ProjectCard
+            projectCardClass="project-card--web"
+            heading="Web Design"
+            link="/webdesign"
+          />
           <ProjectCard
             projectCardClass="project-card--app"
             heading="App Design"
             link="/appdesign"
-          />
-          <ProjectCard
-            projectCardClass="project-card--graphic"
-            heading="Graphic Design"
-            link="/graphicdesign"
           />
         </ul>
       </div>
@@ -23,4 +23,4 @@ function ProjectsWeb() {
   );
 }
 
-export default ProjectsWeb;
+export default ProjectsGraphic;
