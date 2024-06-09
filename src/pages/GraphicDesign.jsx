@@ -1,6 +1,6 @@
 import Header from "../components/header/Header";
 import Intro from "../components/intro/Intro";
-import ProjectsGraphic from "../sections/ProjectsGraphic";
+import ProjectsGraphic from "../sections/projects/ProjectsGraphic";
 import CallToAction from "../components/cta/CallToAction";
 import Footer from "../components/Footer/Footer";
 

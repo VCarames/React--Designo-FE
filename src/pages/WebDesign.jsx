@@ -1,6 +1,6 @@
 import Header from "../components/header/Header";
 import Intro from "../components/intro/Intro";
-import ProjectsWeb from "../sections/ProjectsWeb";
+import ProjectsWeb from "../sections/projects/ProjectsWeb";
 import CallToAction from "../components/cta/CallToAction";
 import Footer from "../components/Footer/Footer";
 
