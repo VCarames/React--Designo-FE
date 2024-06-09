@@ -1,5 +1,6 @@
 import Header from "../components/header/Header";
 import Intro from "../components/intro/Intro";
+import ProjectsApp from "../sections/ProjectsApp";
 import CallToAction from "../components/cta/CallToAction";
 import Footer from "../components/Footer/Footer";
 
@@ -14,6 +15,7 @@ function AppDesign() {
           text="Our mobile designs bring intuitive digital solutions
  to your customers right at their fingertips."
         />
+        <ProjectsApp />
         <CallToAction />
       </main>
       <Footer />

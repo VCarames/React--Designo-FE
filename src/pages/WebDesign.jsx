@@ -1,7 +1,8 @@
 import Header from "../components/header/Header";
+import Intro from "../components/intro/Intro";
+import ProjectsWeb from "../sections/ProjectsWeb";
 import CallToAction from "../components/cta/CallToAction";
 import Footer from "../components/Footer/Footer";
-import Intro from "../components/intro/Intro";
 
 function WebDesign() {
   return (
@@ -14,6 +15,7 @@ function WebDesign() {
           text="We build websites that serve as powerful marketing tools 
 and bring memorable brand experiences."
         />
+        <ProjectsWeb />
         <CallToAction />
       </main>
       <Footer />

@@ -1,4 +1,5 @@
 import Header from "../components/header/Header";
+import ProjectsHome from "../sections/ProjectsHome";
 import CallToAction from "../components/cta/CallToAction";
 import Footer from "../components/Footer/Footer";
 
@@ -10,6 +11,7 @@ function Home() {
       <p>This is the "Home" page component</p>
 
       <main>
+        <ProjectsHome />
         <CallToAction />
       </main>
       <Footer />
