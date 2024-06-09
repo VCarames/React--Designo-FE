@@ -1,5 +1,6 @@
 import Header from "../components/header/Header";
 import Intro from "../components/intro/Intro";
+import DesignsWeb from "../sections/designs/DesignsWeb";
 import ProjectsWeb from "../sections/projects/ProjectsWeb";
 import CallToAction from "../components/cta/CallToAction";
 import Footer from "../components/Footer/Footer";
@@ -15,6 +16,7 @@ function WebDesign() {
           text="We build websites that serve as powerful marketing tools 
 and bring memorable brand experiences."
         />
+        <DesignsWeb />
         <ProjectsWeb />
         <CallToAction />
       </main>

@@ -1,5 +1,6 @@
 import Header from "../components/header/Header";
 import Intro from "../components/intro/Intro";
+import DesignsGraphics from "../sections/designs/DesignsGraphics";
 import ProjectsGraphic from "../sections/projects/ProjectsGraphic";
 import CallToAction from "../components/cta/CallToAction";
 import Footer from "../components/Footer/Footer";
@@ -16,6 +17,7 @@ function GraphicDesign() {
 tailored to meet your business objectives.
 "
         />
+        <DesignsGraphics />
         <ProjectsGraphic />
         <CallToAction />
       </main>
