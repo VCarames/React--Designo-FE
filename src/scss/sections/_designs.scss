@@ -1,0 +1,26 @@
+.designs {
+  margin: 0 24px;
+
+  @media (min-width: 760px) {
+    margin: 0 40px 39px;
+  }
+
+  &__content {
+    max-width: 1110px;
+    margin: 0 auto;
+  }
+
+  &__list {
+    display: grid;
+    gap: 40px;
+
+    @media (min-width: 760px) {
+      gap: 32px;
+    }
+
+    @media (min-width: 1000px) {
+      grid-template-columns: repeat(3, 1fr);
+      gap: 30px;
+    }
+  }
+}

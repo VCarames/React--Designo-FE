@@ -11,6 +11,7 @@
 @use "components/intro/intro";
 
 @use "components/cards/projectCard";
+@use "components/cards/designCard";
 
 @use "components/headquarters/headquartersSection";
 @use "components/headquarters/headquartersList";
@@ -23,4 +24,5 @@
 @use "components/footer/footerSocials";
 @use "components/footer/footerContact";
 
+@use "sections/designs";
 @use "sections/projects";
