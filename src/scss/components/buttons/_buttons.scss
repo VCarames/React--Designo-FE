@@ -17,6 +17,11 @@
   border-radius: 0.5rem;
   background: var(--primary-clr-three);
 
+  &--alt {
+    color: var(--primary-clr-three);
+    background: var(--primary-clr-one);
+  }
+
   &:is(:hover, :focus, :focus-visible) {
     color: var(--primary-clr-three);
     background: var(--secondary-clr-one);
