@@ -6,7 +6,7 @@
 @use "components/header/navToggle";
 @use "components/header/navbar";
 
-@use "components/buttons";
+@use "components/buttons/buttons";
 
 @use "components/intro/intro";
 
@@ -24,5 +24,6 @@
 @use "components/footer/footerSocials";
 @use "components/footer/footerContact";
 
+@use "sections/hero";
 @use "sections/designs";
 @use "sections/projects";

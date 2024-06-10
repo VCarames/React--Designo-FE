@@ -1,0 +1,135 @@
+.hero {
+  margin: 0 0 120px 0;
+
+  @media (min-width: 760px) {
+    margin: 0 40px 120px 39px;
+  }
+
+  @media (min-width: 1000px) {
+    margin: 0 40px 160px 39px;
+  }
+
+  &__content {
+    max-width: 1110px;
+    height: 843px;
+
+    display: grid;
+    justify-items: center;
+
+    padding: 80px 24px 0 24px;
+    margin: 0 auto;
+
+    background: var(--primary-clr-one);
+    background-image: url(/src/assets/home/desktop/bg-pattern-hero-home.svg);
+    background-repeat: no-repeat;
+    background-position: -0.96px 103px;
+
+    overflow: hidden;
+
+    transition: 0.8s all;
+
+    @media (min-width: 760px) {
+      padding: 80px 24px 0 24px;
+
+      background-position: 169px 101px;
+
+      border-radius: 15px;
+    }
+
+    @media (min-width: 1000px) {
+      height: 648px;
+
+      grid-template-columns: 2fr 1fr;
+      align-items: start;
+
+      background-position: 466px 0;
+
+      padding: 145px 98.91px 0 95px;
+    }
+  }
+
+  &__container {
+    display: grid;
+    justify-items: center;
+    gap: 14px;
+
+    text-align: center;
+
+    transition: 0.8s all;
+
+    @media (min-width: 1000px) {
+      justify-items: start;
+      align-self: start;
+      text-align: start;
+    }
+  }
+
+  &__heading {
+    max-width: 18ch;
+
+    color: #fff;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 36px; /* 112.5% */
+
+    margin-bottom: 14px;
+
+    @media (min-width: 760px) {
+      color: #fff;
+      font-size: 48px;
+      font-style: normal;
+      font-weight: 500;
+      line-height: 48px; /* 100% */
+
+      margin-bottom: 8px;
+    }
+
+    @media (min-width: 1000px) {
+      margin-bottom: 11px;
+    }
+  }
+
+  &__text {
+    max-width: 40ch;
+
+    color: #fff;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 25px; /* 166.667% */
+
+    margin-bottom: 24px;
+
+    @media (min-width: 760px) {
+      color: #fff;
+      font-size: 16px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: 26px; /* 162.5% */
+
+      margin-bottom: 19px;
+    }
+
+    @media (min-width: 1000px) {
+      max-width: 46ch;
+
+      margin-bottom: 40px;
+    }
+  }
+
+  &__button {
+  }
+
+  &__img {
+    transform: translateY(80px);
+
+    @media (min-width: 760px) {
+      transform: translateY(69px);
+    }
+
+    @media (min-width: 1000px) {
+      transform: translateY(0);
+    }
+  }
+}
