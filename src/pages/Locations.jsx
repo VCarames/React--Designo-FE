@@ -1,6 +1,7 @@
 import Header from "../components/header/Header";
 import CallToAction from "../components/cta/CallToAction";
 import Footer from "../components/Footer/Footer";
+import LocationSection from "../sections/locations/LocationSection";
 
 function Locations() {
   return (
@@ -10,6 +11,7 @@ function Locations() {
       <p>This is the "Locations" page component</p>
 
       <main>
+        <LocationSection />
         <CallToAction />
       </main>
       <Footer />
