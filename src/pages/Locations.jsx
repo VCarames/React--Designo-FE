@@ -7,10 +7,9 @@ function Locations() {
   return (
     <div>
       <Header />
-      <h1>Locations Page</h1>
-      <p>This is the "Locations" page component</p>
 
       <main>
+        <h1 className="visually-hidden">Our Locations</h1>
         <LocationSection />
         <CallToAction />
       </main>
