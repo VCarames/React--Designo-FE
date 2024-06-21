@@ -1,9 +1,9 @@
 import WhyUsCard from "./WhyUsCard";
 
-function WhyUsTwo({ heading }) {
+function WhyUsTwo({ whyUsClass, heading }) {
   return (
-    <section className="why-us">
-      <h1 className="visually-hidden">{heading}</h1>
+    <section className={`why-us ${whyUsClass}`}>
+      <h2 className="visually-hidden">{heading}</h2>
       <WhyUsCard
         contentClass="why-us__content--two"
         imgDesktop="/src/assets/about/desktop/image-real-deal.jpg"

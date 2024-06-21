@@ -18,7 +18,7 @@ tailored to meet your business objectives.
 "
         />
         <DesignsGraphics />
-        <ProjectsGraphic />
+        <ProjectsGraphic projectsClass="projects--custom" />
         <CallToAction />
       </main>
       <Footer />

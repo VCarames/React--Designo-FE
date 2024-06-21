@@ -17,7 +17,7 @@ function AppDesign() {
  to your customers right at their fingertips."
         />
         <DesignsApp />
-        <ProjectsApp />
+        <ProjectsApp projectsClass="projects--custom" />
         <CallToAction />
       </main>
       <Footer />

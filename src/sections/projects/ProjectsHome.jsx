@@ -9,17 +9,17 @@ function ProjectsHome() {
         <ul className="projects__list" role="list">
           <ProjectCard
             projectCardClass="project-card--web"
-            heading="Web Design"
+            project="Web Design"
             link="/webdesign"
           />
           <ProjectCard
             projectCardClass="project-card--app"
-            heading="App Design"
+            project="App Design"
             link="/appdesign"
           />
           <ProjectCard
             projectCardClass="project-card--graphic"
-            heading="Graphic Design"
+            project="Graphic Design"
             link="/graphicdesign"
           />
         </ul>

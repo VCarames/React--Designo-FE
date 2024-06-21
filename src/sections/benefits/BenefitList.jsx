@@ -10,7 +10,7 @@ function BenefitList() {
       />
       <BenefitCard
         illustration="/src/assets/home/desktop/illustration-resourceful.svg"
-        heading="Resourful"
+        heading="Resourceful"
         text="Everything that we do has a strategic purpose. We use an agile approach in all of our projects and value customer collaboration. It guarantees superior results that fulfill our clients’ needs."
       />
       <BenefitCard

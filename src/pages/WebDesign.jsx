@@ -17,7 +17,7 @@ function WebDesign() {
 and bring memorable brand experiences."
         />
         <DesignsWeb />
-        <ProjectsWeb />
+        <ProjectsWeb projectsClass="projects--custom" />
         <CallToAction />
       </main>
       <Footer />

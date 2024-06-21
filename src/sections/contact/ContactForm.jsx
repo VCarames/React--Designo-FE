@@ -63,7 +63,7 @@ function ContactForm() {
 
   return (
     <form className="contact__form" onSubmit={handleSubmit} noValidate>
-      <div>
+      <div className="contact__container--name">
         <label htmlFor="name" className="visually-hidden">
           Name:
         </label>
@@ -72,20 +72,25 @@ function ContactForm() {
           type="text"
           id="name"
           name="name"
-          aria-describedby="error-message--name"
+          aria-describedby="contact__error--name"
           placeholder="Name"
           value={formData.name}
           onChange={handleChange}
           required
         />
         {errors.name && (
-          <div id="error-message--name" aria-live="assertive">
+          <div
+            className="contact__error--name"
+            id="contact__error--name"
+            aria-live="assertive"
+          >
             <span className="error-message">{errors.name}</span>
+            <img src="/src/assets/contact/desktop/icon-error.svg" alt="" />
           </div>
         )}
       </div>
 
-      <div>
+      <div className="contact__container--email">
         <label htmlFor="email" className="visually-hidden">
           Email:
         </label>
@@ -95,7 +100,7 @@ function ContactForm() {
           id="email"
           name="email"
           aria-describedby="error-message--email"
-          placeholder="Email"
+          placeholder="Email Address"
           value={formData.email}
           onChange={handleChange}
           required
@@ -103,11 +108,12 @@ function ContactForm() {
         {errors.email && (
           <div id="error-message--email" aria-live="assertive">
             <span className="error-message">{errors.email}</span>
+            <img src="/src/assets/contact/desktop/icon-error.svg" alt="" />
           </div>
         )}
       </div>
 
-      <div>
+      <div className="contact__container--phone">
         <label htmlFor="phone" className="visually-hidden">
           Phone:
         </label>
@@ -125,11 +131,12 @@ function ContactForm() {
         {errors.phone && (
           <div id="error-message--phone" aria-live="assertive">
             <span className="error-message">{errors.phone}</span>
+            <img src="/src/assets/contact/desktop/icon-error.svg" alt="" />
           </div>
         )}
       </div>
 
-      <div>
+      <div className="contact__container--message">
         <label htmlFor="message" className="visually-hidden">
           Message:
         </label>
@@ -138,14 +145,15 @@ function ContactForm() {
           id="message"
           name="message"
           aria-describedby="error-message--message"
-          placeholder="Message"
+          placeholder="Your Message"
           value={formData.message}
           onChange={handleChange}
           required
         />
         {errors.message && (
-          <div id="error-message--message" aria-live="assertive">
+          <div className="" id="error-message--message" aria-live="assertive">
             <span className="error-message">{errors.message}</span>
+            <img src="/src/assets/contact/desktop/icon-error.svg" alt="" />
           </div>
         )}
       </div>

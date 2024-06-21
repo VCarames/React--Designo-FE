@@ -21,7 +21,7 @@ function About() {
         />
         <WhyUsOne heading="Why Us: Reason One" />
         <HeadquartersSection />
-        <WhyUsTwo heading="Why Us: Reason Two" />
+        <WhyUsTwo whyUsClass="why-us--two" heading="Why Us: Reason Two" />
         <CallToAction />
       </main>
       <Footer />
