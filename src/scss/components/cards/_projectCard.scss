@@ -67,7 +67,7 @@
     align-items: center;
     gap: 0.69rem;
 
-    color: var(--primary-clr-three);
+    color: var(--primary-clr-one);
     text-align: center;
 
     &::before {
@@ -122,13 +122,13 @@
     font-size: var(--font-size-28);
     font-weight: var(--font-weight-500);
     line-height: 1.29;
-    letter-spacing: 0.09rem;
+    letter-spacing: 0.09em;
     text-transform: uppercase;
 
     @media (min-width: 760px) {
       font-size: var(--font-size-40);
       line-height: 1.2;
-      letter-spacing: 0.13rem;
+      letter-spacing: 0.13em;
     }
   }
 
@@ -141,7 +141,7 @@
     font-size: var(--font-size-15);
     font-weight: var(--font-weight-500);
     line-height: normal;
-    letter-spacing: 0.31rem;
+    letter-spacing: 0.31em;
     text-transform: uppercase;
   }
 

@@ -83,7 +83,7 @@
 
     padding: 5rem 1.5rem;
 
-    background: var(--secondary-clr-four);
+    background: var(--secondary-clr-two);
     background-image: url(/src/assets/shared/desktop/bg-pattern-three-circles.svg);
     background-repeat: no-repeat;
     background-position: 0;
@@ -130,7 +130,7 @@
   &__location {
     grid-area: location;
 
-    color: var(--primary-clr-one);
+    color: var(--primary-clr-two);
     font-size: var(--font-size-32);
     font-style: normal;
     font-weight: var(--font-weight-500);
@@ -157,7 +157,7 @@
   &__address,
   &__phone,
   &__email {
-    color: var(--secondary-clr-two);
+    color: var(--secondary-clr-one);
 
     font-size: var(--font-size-15);
     font-style: normal;

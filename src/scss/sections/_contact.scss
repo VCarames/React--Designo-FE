@@ -22,7 +22,7 @@
     padding: 4.5rem 1.5rem 4.5rem 1.5rem;
     margin: 0 auto;
 
-    background: var(--primary-clr-one);
+    background: var(--primary-clr-two);
     background-image: url(/src/assets/contact/mobile/bg-pattern-hero-contact-mobile.svg);
     background-repeat: no-repeat;
     background-position: -5.75rem 0;
@@ -58,7 +58,7 @@
     display: grid;
     gap: 1.5rem;
 
-    color: var(--primary-clr-three);
+    color: var(--primary-clr-one);
     text-align: center;
 
     &--name,
@@ -116,7 +116,7 @@
   &__input {
     width: 100%;
 
-    color: var(--primary-clr-three);
+    color: var(--primary-clr-one);
     font-size: var(--font-size-15);
     font-weight: var(--font-weight-500);
     line-height: 1.73;
@@ -125,7 +125,7 @@
 
     background: none;
 
-    border-bottom: solid 0.06rem var(--primary-clr-three);
+    border-bottom: solid 0.06rem var(--primary-clr-one);
 
     outline: none;
 
@@ -134,7 +134,7 @@
     }
 
     &:is(:hover, :focus, :focus-visible) {
-      border-bottom: solid 0.19rem var(--primary-clr-three);
+      border-bottom: solid 0.19rem var(--primary-clr-one);
 
       transition: var(--transition);
     }
@@ -165,7 +165,7 @@
 }
 
 ::placeholder {
-  color: var(--primary-clr-three);
+  color: var(--primary-clr-one);
   font-size: var(--font-size-15);
   font-weight: var(--font-weight-500);
   line-height: 1.73;
@@ -174,7 +174,7 @@
 }
 
 .error-message {
-  color: var(--primary-clr-three);
+  color: var(--primary-clr-one);
   font-size: var(--font-size-14);
   font-weight: var(--font-weight-400);
   line-height: 2.17;

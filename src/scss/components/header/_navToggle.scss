@@ -1,13 +1,13 @@
 [aria-controls="nav__menu"] {
   display: grid;
-  gap: 4px;
+  gap: 0.25rem;
   background: transparent;
 
   z-index: 7;
 
   cursor: pointer;
 
-  @media (min-width: 760px) {
+  @media (min-width: 47.5rem) {
     display: none;
   }
 }
@@ -16,7 +16,7 @@
   transform: translateY(-100%);
   visibility: hidden;
 
-  @media (min-width: 760px) {
+  @media (min-width: 47.5rem) {
     transform: none;
     visibility: visible;
   }
@@ -27,7 +27,7 @@
   width: 1.5rem;
   height: 0.25rem;
 
-  background: var(--primary-clr-two);
+  background: var(--primary-clr-three);
 
   border-radius: 0.25rem;
 

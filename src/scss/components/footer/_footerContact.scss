@@ -16,13 +16,11 @@
 .address {
   display: grid;
 
-  color: var(--primary-clr-three);
+  color: var(--primary-clr-one);
   font-size: var(--font-size-16);
   font-style: normal;
   line-height: 1.63;
   text-align: center;
-
-  opacity: 0.5;
 
   @media (min-width: 47.5rem) {
     text-align: start;
@@ -36,10 +34,15 @@
   &__phone,
   &__email {
     font-weight: var(--font-weight-400);
+    opacity: 0.5;
+
+    outline: none;
 
     @media (hover: hover) {
       &:is(:hover, :focus, :focus-visible) {
-        color: var(--secondary-clr-one);
+        color: var(--hover-clr-one);
+        opacity: 1;
+
         transition: var(--transition);
       }
     }

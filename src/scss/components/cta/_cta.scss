@@ -29,7 +29,7 @@
 
     border-radius: 0.94rem;
 
-    background: var(--primary-clr-one);
+    background: var(--primary-clr-two);
     background-image: url(/src/assets/shared/desktop/bg-pattern-call-to-action.svg);
     background-position: -14.88rem -6.44rem;
     background-size: 54.5rem;
@@ -62,7 +62,7 @@
     justify-items: center;
     gap: 0.94rem;
 
-    color: var(--primary-clr-three);
+    color: var(--primary-clr-one);
     text-align: center;
 
     @media (min-width: 47.5rem) {
