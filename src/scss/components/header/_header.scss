@@ -4,25 +4,30 @@
 
   background: var(--primary-clr-three);
 
+  @media (min-width: 47.5rem) {
+    margin: 0 2.06rem 2.13rem 2.44rem;
+  }
+
   &__content {
-    max-width: 1110px;
+    max-width: var(--width-1110);
 
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 31.04px 24px 30.08px 24px;
+
+    padding: 2.19rem 1.5rem 2.13rem 1.5rem;
     margin: 0 auto;
 
-    @media (min-width: 760px) {
-      padding: 64px 39px 30px 39px;
+    @media (min-width: 47.5rem) {
+      padding: 4rem 0 1.88rem 0;
     }
   }
 
   &__logo {
-    max-width: 202px;
+    max-width: 12.63rem;
 
-    @media (min-width: 760px) {
-      max-width: 203px;
+    @media (min-width: 47.5rem) {
+      max-width: 12.69rem;
     }
   }
 }
