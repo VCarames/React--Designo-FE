@@ -1,27 +1,31 @@
 .benefits {
-  margin: 0 24px;
+  margin: 0 1.5rem 19.38rem 1.5rem;
 
-  @media (min-width: 760px) {
-    margin: 0 40px 0 39px;
+  @media (min-width: 47.5rem) {
+    margin: 0 2rem 20.63rem 1.88rem;
+  }
+
+  @media (min-width: 62.5rem) {
+    margin: 0 2rem 23.56rem 1.88rem;
   }
 
   &__content {
-    max-width: 1110px;
+    max-width: var(--width-1110);
 
     margin: 0 auto;
   }
 
   &__list {
     display: grid;
-    gap: 80px;
+    gap: 4.88rem;
 
-    @media (min-width: 760px) {
-      gap: 32px;
+    @media (min-width: 47.5rem) {
+      gap: 2rem;
     }
 
-    @media (min-width: 1000px) {
+    @media (min-width: 62.5rem) {
       grid-template-columns: repeat(3, 1fr);
-      gap: 30px;
+      gap: 1.88rem;
     }
   }
 }
@@ -30,33 +34,33 @@
   display: grid;
   justify-items: center;
   align-items: center;
-  gap: 48px;
+  gap: 3.13rem;
 
-  @media (min-width: 760px) {
+  @media (min-width: 47.5rem) {
     grid-template-columns: 1fr 2fr;
-    // gap: 16px;
+    gap: 39zpx;
   }
 
-  @media (min-width: 1000px) {
+  @media (min-width: 62.5rem) {
     grid-template-columns: 1fr;
-    // gap: 32px;
+    gap: 3.06rem;
   }
 
   &__container {
     display: grid;
-    gap: 32px;
+    gap: 2rem;
 
     color: var(--secondary-clr-two);
     text-align: center;
 
-    @media (min-width: 760px) {
-      gap: 16px;
+    @media (min-width: 47.5rem) {
+      gap: 1rem;
 
       text-align: start;
     }
 
-    @media (min-width: 1000px) {
-      gap: 32px;
+    @media (min-width: 62.5rem) {
+      gap: 2rem;
 
       text-align: center;
     }
@@ -71,10 +75,14 @@
   }
 
   &__text {
-    max-width: 46ch;
+    max-width: 35ch;
 
     font-size: var(--font-size-16);
     font-weight: var(--font-weight-400);
     line-height: 1.63;
+
+    @media (min-width: 47.5rem) {
+      max-width: 46ch;
+    }
   }
 }
