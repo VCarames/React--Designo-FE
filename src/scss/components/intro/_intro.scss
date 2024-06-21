@@ -1,59 +1,77 @@
 .intro {
-  @media (min-width: 760px) {
-    margin: 0 40px 0 39px;
+  margin: 0 0 6rem 0;
+
+  @media (min-width: 47.5rem) {
+    margin: 0 2rem 7.5rem 2.44rem;
+  }
+
+  @media (min-width: 62.5rem) {
+    margin: 0 2.5rem 10rem 2.44rem;
   }
 
   &__content {
-    max-width: 1110px;
+    max-width: var(--width-1110);
 
     display: grid;
     justify-items: center;
-    gap: 24px;
+    gap: 1.5rem;
 
     color: var(--primary-clr-three);
     text-align: center;
 
-    padding: 105px 24px 105px 24px;
+    padding: 6.56rem 1.5rem 6.56rem 1.5rem;
     margin: 0 auto;
 
     background: var(--primary-clr-one);
+    background-image: url(/src/assets/web-design/desktop/bg-pattern-intro-web.svg);
     background-repeat: no-repeat;
     background-position: -31.31rem 0;
 
-    &--web {
-      background-image: url(/src/assets/web-design/desktop/bg-pattern-intro-web.svg);
+    @media (min-width: 47.5rem) {
+      gap: 1.44rem;
+
+      padding: 4.06rem 1.5rem 4rem 1.5rem;
+      border-radius: 0.94rem;
+
+      background-position: -1.31rem -10.38rem;
     }
 
-    &--app {
-      background-image: url(/src/assets/app-design/desktop/bg-pattern-intro-app.svg);
-    }
+    @media (min-width: 62.5rem) {
+      background-position: 14.69rem -10.38rem;
 
-    &--graphic {
-      background-image: url(/src/assets/graphic-design/desktop/bg-pattern-intro-graphic.svg);
-    }
+      &--app {
+        background-image: url(/src/assets/app-design/desktop/bg-pattern-intro-app.svg);
+        background-position: -3.56rem -10.38rem;
+      }
 
-    @media (min-width: 760px) {
-      border-radius: 15px;
-
-      background-position: -1.38rem -10.38rem;
-    }
-
-    @media (min-width: 1000px) {
-      background-position: 14.63rem -10.38rem;
+      &--graphic {
+        background-image: url(/src/assets/graphic-design/desktop/bg-pattern-intro-graphic.svg);
+        background-position: -3.56rem -10.38rem;
+      }
     }
   }
 
   &__heading {
-    font-size: 48px;
-    font-weight: 500;
-    line-height: 1;
+    font-size: var(--font-size-32);
+    font-weight: var(--font-weight-500);
+    line-height: 1.13;
+
+    @media (min-width: 47.5rem) {
+      font-size: var(--font-size-48);
+      line-height: 1;
+    }
   }
 
   &__text {
     max-width: 40ch;
 
-    font-size: 16px;
-    font-weight: 400;
-    line-height: 1.63;
+    font-size: var(--font-size-15);
+    font-weight: var(--font-weight-400);
+    line-height: 1.67;
+
+    @media (min-width: 47.5rem) {
+      font-size: var(--font-size-16);
+      line-height: 1.63;
+    }
   }
 }
