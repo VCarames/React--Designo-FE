@@ -21,7 +21,7 @@
 
     overflow: auto;
 
-    @media (min-width: 760px) {
+    @media (min-width: 47.5rem) {
       visibility: visible;
 
       flex-direction: row;
@@ -35,8 +35,6 @@
 
       background: transparent;
       box-shadow: none;
-    }
-    @media (min-width: 1000px) {
     }
   }
 }
@@ -53,7 +51,7 @@
 
   outline: none;
 
-  @media (min-width: 760px) {
+  @media (min-width: 47.5rem) {
     color: var(--secondary-clr-two);
     font-size: var(--font-size-14);
     line-height: 1;
@@ -69,7 +67,7 @@
     background: var(--primary-clr-three);
     transition: width 0.4s ease-out;
 
-    @media (min-width: 760px) {
+    @media (min-width: 47.5rem) {
       background: var(--secondary-clr-two);
     }
   }
@@ -84,7 +82,7 @@
 .disable-scroll {
   overflow: hidden;
 
-  @media (min-width: 760px) {
+  @media (min-width: 47.5rem) {
     overflow: auto;
   }
 
@@ -98,7 +96,7 @@
     background-color: var(--overlay);
     z-index: 3;
 
-    @media (min-width: 760px) {
+    @media (min-width: 47.5rem) {
       background-color: transparent;
     }
   }
