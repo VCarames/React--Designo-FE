@@ -34,7 +34,7 @@ function ContactForm() {
     } else {
       const emailPattern = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
       if (!emailPattern.test(formData.email)) {
-        newErrors.email = "Invalid email format";
+        newErrors.email = "Invalid email";
       }
     }
     if (!formData.phone.trim()) {
@@ -42,7 +42,7 @@ function ContactForm() {
     } else {
       const phonePattern = /^[0-9]{10}$/;
       if (!phonePattern.test(formData.phone)) {
-        newErrors.phone = "Invalid phone number, must be 10 digits";
+        newErrors.phone = "Invalid phone number";
       }
     }
     if (!formData.message.trim()) newErrors.message = "Can't be empty";
@@ -81,7 +81,7 @@ function ContactForm() {
         {errors.name && (
           <div
             className="contact__error--name"
-            id="contact__error--name"
+            id="error-message--name"
             aria-live="assertive"
           >
             <span className="error-message">{errors.name}</span>
@@ -99,6 +99,7 @@ function ContactForm() {
           type="email"
           id="email"
           name="email"
+          inputMode="email"
           aria-describedby="error-message--email"
           placeholder="Email Address"
           value={formData.email}
@@ -106,7 +107,11 @@ function ContactForm() {
           required
         />
         {errors.email && (
-          <div id="error-message--email" aria-live="assertive">
+          <div
+            className="contact__error--email"
+            id="error-message--email"
+            aria-live="assertive"
+          >
             <span className="error-message">{errors.email}</span>
             <img src="/src/assets/contact/desktop/icon-error.svg" alt="" />
           </div>
@@ -122,6 +127,7 @@ function ContactForm() {
           type="tel"
           id="phone"
           name="phone"
+          inputMode="tel"
           aria-describedby="error-message--phone"
           placeholder="Phone"
           value={formData.phone}
@@ -129,7 +135,11 @@ function ContactForm() {
           required
         />
         {errors.phone && (
-          <div id="error-message--phone" aria-live="assertive">
+          <div
+            className="contact__error--phone"
+            id="error-message--phone"
+            aria-live="assertive"
+          >
             <span className="error-message">{errors.phone}</span>
             <img src="/src/assets/contact/desktop/icon-error.svg" alt="" />
           </div>
@@ -151,7 +161,11 @@ function ContactForm() {
           required
         />
         {errors.message && (
-          <div className="" id="error-message--message" aria-live="assertive">
+          <div
+            className="contact__error--message"
+            id="error-message--message"
+            aria-live="assertive"
+          >
             <span className="error-message">{errors.message}</span>
             <img src="/src/assets/contact/desktop/icon-error.svg" alt="" />
           </div>
