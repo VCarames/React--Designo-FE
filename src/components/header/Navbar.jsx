@@ -1,10 +1,11 @@
 import React, { useState, useEffect, useRef } from "react";
-import { Link } from "react-router-dom";
+import { Link, useLocation } from "react-router-dom";
 
 function Navbar() {
   const [isNavExpanded, setIsNavExpanded] = useState(false);
   const navMenuRef = useRef();
   const navToggleRef = useRef();
+  const location = useLocation();
 
   useEffect(() => {
     function handleEscapeKey(event) {
@@ -19,6 +20,10 @@ function Navbar() {
       document.removeEventListener("keydown", handleEscapeKey);
     };
   }, []);
+
+  useEffect(() => {
+    closeNav();
+  }, [location]);
 
   const toggleNav = () => {
     setIsNavExpanded((prevExpanded) => !prevExpanded);
@@ -55,7 +60,7 @@ function Navbar() {
         <span className="nav__toggle-line" />
       </button>
       <ul
-        className={`nav__menu ${isNavExpanded ? " expanded" : ""}`}
+        className={`nav__menu ${isNavExpanded ? "expanded" : ""}`}
         id="nav__menu"
         role="list"
         ref={navMenuRef}
