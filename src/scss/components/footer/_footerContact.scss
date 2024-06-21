@@ -2,14 +2,14 @@
   display: grid;
   gap: 2.5rem;
 
-  @media (min-width: 760px) {
+  @media (min-width: 47.5rem) {
     grid-template-columns: 1fr 1fr;
-    gap: 1.88rem;
+    gap: 2rem;
   }
 
-  @media (min-width: 1000px) {
-    grid-template-columns: 1fr 2fr;
-    gap: 3.81rem;
+  @media (min-width: 62.5rem) {
+    grid-template-columns: 1.5fr 1fr;
+    gap: 5rem;
   }
 }
 
@@ -17,30 +17,30 @@
   display: grid;
 
   color: var(--primary-clr-three);
-  font-size: 16px;
+  font-size: var(--font-size-16);
   font-style: normal;
   line-height: 1.63;
   text-align: center;
 
   opacity: 0.5;
 
-  @media (min-width: 760px) {
+  @media (min-width: 47.5rem) {
     text-align: start;
   }
 
   &__heading {
-    font-weight: 700;
+    font-weight: var(--font-weight-700);
   }
 
   &__location,
   &__phone,
   &__email {
-    font-weight: 400;
+    font-weight: var(--font-weight-400);
 
     @media (hover: hover) {
       &:is(:hover, :focus, :focus-visible) {
         color: var(--secondary-clr-one);
-        transition: 0.8s all;
+        transition: var(--transition);
       }
     }
   }

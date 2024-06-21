@@ -1,24 +1,44 @@
 .footer {
   background: var(--primary-clr-two);
 
+  padding: 15.81rem 2.5rem 4rem 2.5rem;
+
+  &--alt {
+    padding: 3.94rem 2.5rem 4rem 2.5rem;
+  }
+
+  @media (min-width: 47.5rem) {
+    padding: 10.44rem 1.69rem 4.94rem 2.5rem;
+
+    &--alt {
+      padding: 5rem 1.69rem 4.94rem 2.5rem;
+    }
+  }
+
+  @media (min-width: 62.5rem) {
+    padding: 9.06rem 2.5rem 4.88rem 2.5rem;
+
+    &--alt {
+      padding: 4.38rem 2.5rem 4.88rem 2.5rem;
+    }
+  }
+
   &__content {
-    max-width: 1110px;
+    max-width: var(--width-1110);
 
     display: grid;
     justify-items: center;
-    gap: 36px;
+    gap: 2.25rem;
 
-    padding: 15.81rem 2.5rem 4rem 2.5rem;
     margin: 0 auto;
 
-    @media (min-width: 760px) {
+    @media (min-width: 47.5rem) {
+      justify-items: stretch;
       gap: 2rem;
-
-      padding: 10.44rem 2.5rem 4.94rem 2.5rem;
     }
 
-    @media (min-width: 1000px) {
-      padding: 8.94rem 2.5rem 4.88rem 2.5rem;
+    @media (min-width: 62.5rem) {
+      gap: 2.06rem;
     }
   }
 
@@ -31,7 +51,7 @@
   &__container--one {
     gap: 3.81rem;
 
-    @media (min-width: 760px) {
+    @media (min-width: 47.5rem) {
       grid-template-columns: 1fr 1.5fr;
       align-items: center;
 
@@ -40,7 +60,7 @@
       border-bottom: solid 0.06rem var(--border-clr);
     }
 
-    @media (min-width: 1000px) {
+    @media (min-width: 62.5rem) {
       grid-template-columns: 1.5fr 1fr;
     }
   }
@@ -48,17 +68,17 @@
   &__container--two {
     gap: 2.5rem;
 
-    @media (min-width: 760px) {
+    @media (min-width: 47.5rem) {
       grid-template-columns: 2fr 1fr;
       justify-items: start;
-      gap: 2.19rem;
+      gap: 1.19rem;
     }
   }
 
   &__logo {
     max-width: 12.31rem;
 
-    @media (min-width: 760px) {
+    @media (min-width: 47.5rem) {
       justify-self: start;
     }
   }

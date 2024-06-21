@@ -3,9 +3,10 @@
   align-items: center;
   gap: 1rem;
 
-  @media (min-width: 760px) {
+  @media (min-width: 47.5rem) {
     justify-self: end;
     align-self: end;
+    gap: 1.06rem;
   }
 
   &-icon {
@@ -14,7 +15,7 @@
     @media (hover: hover) {
       &:is(:hover, :focus, :focus-visible) {
         fill: var(--secondary-clr-one);
-        transition: 0.8s all;
+        transition: var(--transition);
       }
     }
   }
