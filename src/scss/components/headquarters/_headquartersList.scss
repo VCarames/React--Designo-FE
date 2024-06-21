@@ -1,15 +1,15 @@
 .headquarters__list {
   display: grid;
-  gap: 48px;
+  gap: 3rem;
 
-  transition: 0.8s all;
+  transition: var(--transition);
 
-  @media (min-width: 760px) {
-    gap: 80px;
+  @media (min-width: 47.5rem) {
+    gap: 5rem;
   }
 
-  @media (min-width: 1000px) {
+  @media (min-width: 62.5rem) {
     grid-template-columns: repeat(3, 1fr);
-    gap: 30px;
+    gap: 1.88rem;
   }
 }

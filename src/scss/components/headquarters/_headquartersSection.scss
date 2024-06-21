@@ -1,6 +1,18 @@
 .headquarters {
+  margin: 0 0 7.5rem 0;
+
+  @media (min-width: 47.5rem) {
+    &--contact {
+      margin: 0 0 6.06rem 0;
+    }
+  }
+
+  @media (min-width: 62.5rem) {
+    margin: 0 0 10rem 0;
+  }
+
   &__content {
-    max-width: 1110px;
+    max-width: var(--width-1110);
     margin: 0 auto;
   }
 }
