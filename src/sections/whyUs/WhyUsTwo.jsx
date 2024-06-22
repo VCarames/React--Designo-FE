@@ -6,9 +6,9 @@ function WhyUsTwo({ whyUsClass, heading }) {
       <h2 className="visually-hidden">{heading}</h2>
       <WhyUsCard
         contentClass="why-us__content--two"
-        imgDesktop="/src/assets/about/desktop/image-real-deal.jpg"
-        imgTablet="/src/assets/about/tablet/image-real-deal.jpg"
-        img="/src/assets/about/mobile/image-real-deal.jpg"
+        imgDesktop="/assets/about/desktop/image-real-deal.jpg"
+        imgTablet="/assets/about/tablet/image-real-deal.jpg"
+        img="/assets/about/mobile/image-real-deal.jpg"
         heading="The real deal"
         textOne="As strategic partners in our clients’ businesses, we are ready to take on any challenge as our own.
 Solving real problems require empathy and collaboration, and we strive to bring a fresh perspective to every opportunity. We make design and technology more accessible and give you tools to measure success."

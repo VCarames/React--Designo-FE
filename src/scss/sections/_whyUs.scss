@@ -33,7 +33,7 @@
 
     margin: 0 auto;
 
-    background-image: url(/src/assets/shared/desktop/bg-pattern-three-circles.svg);
+    background-image: url(/assets/shared/desktop/bg-pattern-three-circles.svg);
     background-repeat: no-repeat;
     background-position: 0 20rem;
 
@@ -49,7 +49,7 @@
 
       text-align: start;
 
-      background-image: url(/src/assets/shared/desktop/bg-pattern-two-circles.svg);
+      background-image: url(/assets/shared/desktop/bg-pattern-two-circles.svg);
 
       &--one {
         grid-template-areas: "img content";

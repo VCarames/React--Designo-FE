@@ -85,7 +85,7 @@ function ContactForm() {
             aria-live="assertive"
           >
             <span className="error-message">{errors.name}</span>
-            <img src="/src/assets/contact/desktop/icon-error.svg" alt="" />
+            <img src="/assets/contact/desktop/icon-error.svg" alt="" />
           </div>
         )}
       </div>
@@ -113,7 +113,7 @@ function ContactForm() {
             aria-live="assertive"
           >
             <span className="error-message">{errors.email}</span>
-            <img src="/src/assets/contact/desktop/icon-error.svg" alt="" />
+            <img src="/assets/contact/desktop/icon-error.svg" alt="" />
           </div>
         )}
       </div>
@@ -141,7 +141,7 @@ function ContactForm() {
             aria-live="assertive"
           >
             <span className="error-message">{errors.phone}</span>
-            <img src="/src/assets/contact/desktop/icon-error.svg" alt="" />
+            <img src="/assets/contact/desktop/icon-error.svg" alt="" />
           </div>
         )}
       </div>
@@ -167,7 +167,7 @@ function ContactForm() {
             aria-live="assertive"
           >
             <span className="error-message">{errors.message}</span>
-            <img src="/src/assets/contact/desktop/icon-error.svg" alt="" />
+            <img src="/assets/contact/desktop/icon-error.svg" alt="" />
           </div>
         )}
       </div>

@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-import Logo from "/src/assets/logos/logo-light.png";
+import Logo from "/assets/logos/logo-light.png";
 import FooterNav from "./FooterNav";
 import FooterContact from "./FooterContact";
 import FooterSocials from "./FooterSocials";

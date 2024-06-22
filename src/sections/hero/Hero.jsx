@@ -22,7 +22,7 @@ function Hero() {
 
         <img
           className="hero__img"
-          src="src/assets/home/desktop/image-hero-phone.png"
+          src="/assets/home/desktop/image-hero-phone.png"
           alt=""
         />
       </div>

@@ -23,7 +23,7 @@
     margin: 0 auto;
 
     background: var(--primary-clr-two);
-    background-image: url(/src/assets/web-design/desktop/bg-pattern-intro-web.svg);
+    background-image: url(/assets/web-design/desktop/bg-pattern-intro-web.svg);
     background-repeat: no-repeat;
     background-position: -31.31rem 0;
 
@@ -40,12 +40,12 @@
       background-position: 14.69rem -10.38rem;
 
       &--app {
-        background-image: url(/src/assets/app-design/desktop/bg-pattern-intro-app.svg);
+        background-image: url(/assets/app-design/desktop/bg-pattern-intro-app.svg);
         background-position: -3.56rem -10.38rem;
       }
 
       &--graphic {
-        background-image: url(/src/assets/graphic-design/desktop/bg-pattern-intro-graphic.svg);
+        background-image: url(/assets/graphic-design/desktop/bg-pattern-intro-graphic.svg);
         background-position: -3.56rem -10.38rem;
       }
     }

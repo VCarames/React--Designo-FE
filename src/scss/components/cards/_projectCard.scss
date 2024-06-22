@@ -32,30 +32,30 @@
   &--web {
     grid-area: web;
 
-    background-image: url(/src/assets/home/mobile/image-web-design.jpg);
+    background-image: url(/assets/home/mobile/image-web-design.jpg);
 
     @media (min-width: 47.5rem) {
-      background-image: url(/src/assets/home/desktop/image-web-design-small.jpg);
+      background-image: url(/assets/home/desktop/image-web-design-small.jpg);
     }
   }
 
   &--app {
     grid-area: app;
 
-    background-image: url(/src/assets/home/mobile/image-app-design.jpg);
+    background-image: url(/assets/home/mobile/image-app-design.jpg);
 
     @media (min-width: 47.5rem) {
-      background-image: url(/src/assets/home/desktop/image-app-design.jpg);
+      background-image: url(/assets/home/desktop/image-app-design.jpg);
     }
   }
 
   &--graphic {
     grid-area: graphic;
 
-    background-image: url(/src/assets/home/mobile/image-graphic-design.jpg);
+    background-image: url(/assets/home/mobile/image-graphic-design.jpg);
 
     @media (min-width: 47.5rem) {
-      background-image: url(/src/assets/home/desktop/image-graphic-design.jpg);
+      background-image: url(/assets/home/desktop/image-graphic-design.jpg);
     }
   }
 

@@ -340,7 +340,7 @@ body {
   padding: 6.56rem 1.5rem 6.56rem 1.5rem;
   margin: 0 auto;
   background: var(--primary-clr-two);
-  background-image: url(/src/assets/web-design/desktop/bg-pattern-intro-web.svg);
+  background-image: url(/assets/web-design/desktop/bg-pattern-intro-web.svg);
   background-repeat: no-repeat;
   background-position: -31.31rem 0;
 }
@@ -357,11 +357,11 @@ body {
     background-position: 14.69rem -10.38rem;
   }
   .intro__content--app {
-    background-image: url(/src/assets/app-design/desktop/bg-pattern-intro-app.svg);
+    background-image: url(/assets/app-design/desktop/bg-pattern-intro-app.svg);
     background-position: -3.56rem -10.38rem;
   }
   .intro__content--graphic {
-    background-image: url(/src/assets/graphic-design/desktop/bg-pattern-intro-graphic.svg);
+    background-image: url(/assets/graphic-design/desktop/bg-pattern-intro-graphic.svg);
     background-position: -3.56rem -10.38rem;
   }
 }
@@ -432,7 +432,7 @@ body {
   color: var(--primary-clr-one);
   text-align: center;
   padding: 5rem 1.5rem 5rem 1.5rem;
-  background-image: url(/src/assets/about/mobile/bg-pattern-hero-about-mobile.svg);
+  background-image: url(/assets/about/mobile/bg-pattern-hero-about-mobile.svg);
   background-repeat: no-repeat;
   background-position: -13.06rem -8.75rem;
 }
@@ -440,7 +440,7 @@ body {
   .about__container {
     gap: 2rem;
     padding: 4rem 3.63rem 4rem 3.63rem;
-    background-image: url(/src/assets/about/desktop/bg-pattern-hero-about-desktop.svg);
+    background-image: url(/assets/about/desktop/bg-pattern-hero-about-desktop.svg);
     background-position: -7.56rem -26.88rem;
   }
 }
@@ -501,29 +501,29 @@ body {
 }
 .project-card--web {
   grid-area: web;
-  background-image: url(/src/assets/home/mobile/image-web-design.jpg);
+  background-image: url(/assets/home/mobile/image-web-design.jpg);
 }
 @media (min-width: 47.5rem) {
   .project-card--web {
-    background-image: url(/src/assets/home/desktop/image-web-design-small.jpg);
+    background-image: url(/assets/home/desktop/image-web-design-small.jpg);
   }
 }
 .project-card--app {
   grid-area: app;
-  background-image: url(/src/assets/home/mobile/image-app-design.jpg);
+  background-image: url(/assets/home/mobile/image-app-design.jpg);
 }
 @media (min-width: 47.5rem) {
   .project-card--app {
-    background-image: url(/src/assets/home/desktop/image-app-design.jpg);
+    background-image: url(/assets/home/desktop/image-app-design.jpg);
   }
 }
 .project-card--graphic {
   grid-area: graphic;
-  background-image: url(/src/assets/home/mobile/image-graphic-design.jpg);
+  background-image: url(/assets/home/mobile/image-graphic-design.jpg);
 }
 @media (min-width: 47.5rem) {
   .project-card--graphic {
-    background-image: url(/src/assets/home/desktop/image-graphic-design.jpg);
+    background-image: url(/assets/home/desktop/image-graphic-design.jpg);
   }
 }
 .project-card__link {
@@ -747,7 +747,7 @@ body {
   margin: 0 auto;
   border-radius: 0.94rem;
   background: var(--primary-clr-two);
-  background-image: url(/src/assets/shared/desktop/bg-pattern-call-to-action.svg);
+  background-image: url(/assets/shared/desktop/bg-pattern-call-to-action.svg);
   background-position: -14.88rem -6.44rem;
   background-size: 54.5rem;
   background-repeat: no-repeat;
@@ -1016,13 +1016,13 @@ body {
   }
   .main--hero:before {
     position: absolute;
-    content: url(/src/assets/shared/desktop/bg-pattern-leaf.svg);
+    content: url(/assets/shared/desktop/bg-pattern-leaf.svg);
     top: 20.06rem;
     z-index: -2;
   }
   .main--hero:after {
     position: absolute;
-    content: url(/src/assets/shared/desktop/bg-pattern-leaf.svg);
+    content: url(/assets/shared/desktop/bg-pattern-leaf.svg);
     bottom: -18.94rem;
     right: 0;
     transform: rotate(180deg);
@@ -1036,7 +1036,7 @@ body {
   }
   .main--design:before {
     position: absolute;
-    content: url(/src/assets/shared/desktop/bg-pattern-leaf.svg);
+    content: url(/assets/shared/desktop/bg-pattern-leaf.svg);
     top: 7.81rem;
     z-index: -2;
   }
@@ -1048,13 +1048,13 @@ body {
   }
   .main--about:before {
     position: absolute;
-    content: url(/src/assets/shared/desktop/bg-pattern-leaf.svg);
+    content: url(/assets/shared/desktop/bg-pattern-leaf.svg);
     top: 20.06rem;
     z-index: -2;
   }
   .main--about:after {
     position: absolute;
-    content: url(/src/assets/shared/desktop/bg-pattern-leaf.svg);
+    content: url(/assets/shared/desktop/bg-pattern-leaf.svg);
     bottom: 24.06rem;
     right: 0;
     z-index: -2;
@@ -1067,7 +1067,7 @@ body {
   }
   .main--contact:after {
     position: absolute;
-    content: url(/src/assets/shared/desktop/bg-pattern-leaf.svg);
+    content: url(/assets/shared/desktop/bg-pattern-leaf.svg);
     bottom: -18.94rem;
     right: 0;
     z-index: -2;
@@ -1095,7 +1095,7 @@ body {
   padding: 5rem 1.5rem 0 1.5rem;
   margin: 0 auto;
   background: var(--primary-clr-two);
-  background-image: url(/src/assets/home/desktop/bg-pattern-hero-home.svg);
+  background-image: url(/assets/home/desktop/bg-pattern-hero-home.svg);
   background-repeat: no-repeat;
   background-position: -0.06rem 6.44rem;
   overflow: hidden;
@@ -1166,13 +1166,12 @@ body {
 .hero__text {
   max-width: 46ch;
   font-size: var(--font-size-15);
-  font-weight: 400;
+  font-weight: var(--font-weight-400);
   line-height: 1.67;
 }
 @media (min-width: 760px) {
   .hero__text {
     font-size: var(--font-size-16);
-    font-weight: 400;
     line-height: 1.53;
   }
 }
@@ -1462,7 +1461,7 @@ body {
   text-align: center;
   padding: 5rem 1.5rem;
   background: var(--secondary-clr-two);
-  background-image: url(/src/assets/shared/desktop/bg-pattern-three-circles.svg);
+  background-image: url(/assets/shared/desktop/bg-pattern-three-circles.svg);
   background-repeat: no-repeat;
   background-position: 0;
   transition: var(--transition);
@@ -1569,7 +1568,7 @@ body {
   background: var(--secondary-clr-two);
   text-align: center;
   margin: 0 auto;
-  background-image: url(/src/assets/shared/desktop/bg-pattern-three-circles.svg);
+  background-image: url(/assets/shared/desktop/bg-pattern-three-circles.svg);
   background-repeat: no-repeat;
   background-position: 0 20rem;
 }
@@ -1584,7 +1583,7 @@ body {
   .why-us__content {
     align-items: center;
     text-align: start;
-    background-image: url(/src/assets/shared/desktop/bg-pattern-two-circles.svg);
+    background-image: url(/assets/shared/desktop/bg-pattern-two-circles.svg);
   }
   .why-us__content--one {
     grid-template-areas: "img content";
@@ -1675,7 +1674,7 @@ body {
   padding: 4.5rem 1.5rem 4.5rem 1.5rem;
   margin: 0 auto;
   background: var(--primary-clr-two);
-  background-image: url(/src/assets/contact/mobile/bg-pattern-hero-contact-mobile.svg);
+  background-image: url(/assets/contact/mobile/bg-pattern-hero-contact-mobile.svg);
   background-repeat: no-repeat;
   background-position: -5.75rem 0;
   transition: var(--transition);
@@ -1690,7 +1689,7 @@ body {
   .contact__content {
     justify-items: start;
     gap: 2.5rem;
-    background-image: url(/src/assets/contact/desktop/bg-pattern-hero-desktop.svg);
+    background-image: url(/assets/contact/desktop/bg-pattern-hero-desktop.svg);
     background-position: -7.69rem -5.19rem;
   }
 }

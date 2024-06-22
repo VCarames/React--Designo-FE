@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-import arrow from "/src/assets/icons/icon-right-arrow.svg";
+import arrow from "/assets/icons/icon-right-arrow.svg";
 
 function ProjectCard({ projectCardClass, link, project }) {
   return (

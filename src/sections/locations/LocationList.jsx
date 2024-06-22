@@ -4,9 +4,9 @@ function LocationList() {
   return (
     <ul className="locations__list" role="list">
       <LocationCard
-        map="/src/assets/locations/desktop/image-map-canada.png"
-        mapTablet="/src/assets/locations/tablet/image-map-canada.png"
-        mapDesktop="/src/assets/locations/desktop/image-map-canada.png"
+        map="/assets/locations/desktop/image-map-canada.png"
+        mapTablet="/assets/locations/tablet/image-map-canada.png"
+        mapDesktop="/assets/locations/desktop/image-map-canada.png"
         heading="Canada"
         office="Designo Central Office"
         address1="3886 Wellington Street"
@@ -16,9 +16,9 @@ function LocationList() {
       />
       <LocationCard
         cardClass="location-card--alt"
-        map="/src/assets/locations/desktop/image-map-australia.png"
-        mapTablet="/src/assets/locations/tablet/image-map-australia.png"
-        mapDesktop="/src/assets/locations/desktop/image-map-australia.png"
+        map="/assets/locations/desktop/image-map-australia.png"
+        mapTablet="/assets/locations/tablet/image-map-australia.png"
+        mapDesktop="/assets/locations/desktop/image-map-australia.png"
         heading="Australia"
         office="Designo AU Office"
         address1="19 Balonne Street"
@@ -27,9 +27,9 @@ function LocationList() {
         email="contact@designo.au"
       />
       <LocationCard
-        map="/src/assets/locations/desktop/image-map-united-kingdom.png"
-        mapTablet="/src/assets/locations/tablet/image-map-uk.png"
-        mapDesktop="/src/assets/locations/desktop/image-map-united-kingdom.png"
+        map="/assets/locations/desktop/image-map-united-kingdom.png"
+        mapTablet="/assets/locations/tablet/image-map-uk.png"
+        mapDesktop="/assets/locations/desktop/image-map-united-kingdom.png"
         heading="United Kingdom"
         office="Designo UK Office"
         address1="13 Colorado Way "
