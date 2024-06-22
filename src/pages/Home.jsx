@@ -9,7 +9,7 @@ function Home() {
   return (
     <>
       <Header />
-      <main>
+      <main className="main--hero">
         <Hero />
         <ProjectsHome />
         <Benefits />

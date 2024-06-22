@@ -9,7 +9,7 @@ function WebDesign() {
   return (
     <div>
       <Header />
-      <main>
+      <main className="main--design">
         <Intro
           introContentClass="intro__content--web"
           heading="Web Design"

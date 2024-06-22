@@ -11,7 +11,7 @@ function About() {
     <div>
       <Header />
 
-      <main>
+      <main className="main--about">
         <IntroAbout
           imgDesktop="/src/assets/about/desktop/image-about-hero.jpg"
           imgTablet="/src/assets/about/tablet/image-about-hero.jpg"

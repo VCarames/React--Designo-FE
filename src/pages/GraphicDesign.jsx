@@ -9,7 +9,7 @@ function GraphicDesign() {
   return (
     <div>
       <Header />
-      <main>
+      <main className="main--design">
         <Intro
           introContentClass="intro__content--graphic"
           heading="Graphic Design"

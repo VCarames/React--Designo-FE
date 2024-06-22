@@ -9,7 +9,7 @@ function AppDesign() {
   return (
     <div>
       <Header />
-      <main>
+      <main className="main--design">
         <Intro
           introContentClass="intro__content--app"
           heading="App Design"

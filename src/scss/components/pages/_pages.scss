@@ -1,0 +1,74 @@
+.main--hero {
+  @media (min-width: 62.5rem) {
+    position: relative;
+
+    &:before {
+      position: absolute;
+      content: url(/src/assets/shared/desktop/bg-pattern-leaf.svg);
+      top: 20.06rem;
+
+      z-index: -2;
+    }
+    &:after {
+      position: absolute;
+      content: url(/src/assets/shared/desktop/bg-pattern-leaf.svg);
+      bottom: -18.94rem;
+      right: 0;
+
+      transform: rotate(180deg);
+
+      z-index: -2;
+    }
+  }
+}
+
+.main--design {
+  @media (min-width: 62.5rem) {
+    position: relative;
+
+    &:before {
+      position: absolute;
+      content: url(/src/assets/shared/desktop/bg-pattern-leaf.svg);
+      top: 7.81rem;
+
+      z-index: -2;
+    }
+  }
+}
+
+.main--about {
+  @media (min-width: 62.5rem) {
+    position: relative;
+
+    &:before {
+      position: absolute;
+      content: url(/src/assets/shared/desktop/bg-pattern-leaf.svg);
+      top: 20.06rem;
+
+      z-index: -2;
+    }
+    &:after {
+      position: absolute;
+      content: url(/src/assets/shared/desktop/bg-pattern-leaf.svg);
+      bottom: 24.06rem;
+      right: 0;
+
+      z-index: -2;
+    }
+  }
+}
+
+.main--contact {
+  @media (min-width: 62.5rem) {
+    position: relative;
+
+    &:after {
+      position: absolute;
+      content: url(/src/assets/shared/desktop/bg-pattern-leaf.svg);
+      bottom: -18.94rem;
+      right: 0;
+
+      z-index: -2;
+    }
+  }
+}
